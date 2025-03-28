@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+
+    margin: 0;
+    padding: 0;
+
+    background-color: rgb(255, 253, 255);
+}
+
+.header{
+    background-color: rgb(138, 0, 139);
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 75px;
+    box-sizing:border-box;
+
+    font-size: 32px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px
+}
+
+.middle{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    flex-wrap: nowrap;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(65, 105, 226);
+    color: white;
+
+    padding: 16px;
+    flex: 1;
+}
+
+ul{list-style: none;margin: 0; padding: 0;}
+
+a{text-decoration: none;color: inherit;}
+
+.other-half{
+    display: flex;
+    
+    justify-content: flex-start;
+
+    flex-wrap: wrap;
+    flex: 7;
+    flex-grow: 7;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: solid 1px rgb(223, 223, 223);
+
+    width: 30%;
+
+    padding: 25px;
+    margin: 15px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    box-sizing: border-box;
+}
+
+.footer{
+    background-color: rgb(238, 238, 238);
+    color: rgb(138, 0, 139);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
